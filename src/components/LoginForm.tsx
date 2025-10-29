@@ -68,7 +68,7 @@ export const LoginForm = ({ onLogin }: LoginFormProps) => {
           <div className="mx-auto mb-3 sm:mb-4 flex h-12 w-12 sm:h-16 sm:w-16 items-center justify-center rounded-full bg-primary">
             <Building2 className="h-6 w-6 sm:h-8 sm:w-8 text-primary-foreground" />
           </div>
-          <CardTitle className="text-xl sm:text-2xl font-bold">Kilango Group</CardTitle>
+          <CardTitle className="text-xl sm:text-2xl font-bold">The Official Manha</CardTitle>
           <CardDescription className="text-sm sm:text-base">
             Sign in to access your business dashboard
           </CardDescription>
