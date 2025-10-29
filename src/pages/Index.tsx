@@ -42,11 +42,11 @@ const Index = () => {
   const [currentView, setCurrentView] = useState<ViewState>(user ? "comprehensive" : "login");
   const [showSplash, setShowSplash] = useState(true);
 
-  // Hide splash screen after 3 seconds
+  // Hide splash screen after 6 seconds to match the enhanced animation
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowSplash(false);
-    }, 3000);
+    }, 6000);
 
     return () => clearTimeout(timer);
   }, []);
